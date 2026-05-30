@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "shadcn-spotlight-tour",
+  "homepage": "https://github.com/iamsatar/shadcn-spotlight-tour",
+  "items": [
+    {
+      "name": "spotlight-tour",
+      "type": "registry:component",
+      "title": "Spotlight Tour",
+      "description": "An accessible onboarding tour with spotlight highlighting, smart tooltip positioning, and localStorage persistence. Drop in data-tour attributes and go.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/spotlight-tour/spotlight-tour.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/spotlight-tour/use-spotlight-tour.ts",
+          "type": "registry:hook"
+        }
+      ]
+    }
+  ]
+}
